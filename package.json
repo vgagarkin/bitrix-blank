@@ -7,6 +7,10 @@
   "author": "Vladimir Gagarkin <vgagarkin@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.2",
+    "autoprefixer": "^9.6.1",
     "webpack": "^4.41.0"
   }
 }
