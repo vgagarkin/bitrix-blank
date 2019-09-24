@@ -1,0 +1,12 @@
+{
+  "name": "bitrix-blank",
+  "version": "1.0.0",
+  "description": "blank project for bitrix developers",
+  "main": "index.js",
+  "repository": "git@github.com:vgagarkin/bitrix-blank.git",
+  "author": "Vladimir Gagarkin <vgagarkin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.0"
+  }
+}

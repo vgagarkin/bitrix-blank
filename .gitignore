@@ -1,2 +1,7 @@
-LICENCE
+node_modules
+.DS_Store
+.vscode
+.idea
+dist
+*.log
 /bitrix/
