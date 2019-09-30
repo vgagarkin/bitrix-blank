@@ -1,3 +1,7 @@
+#TODO: раскомментировать после того, как сборка попала в проект
+#.htaccess
+#.gitignore
+
 node_modules
 .DS_Store
 .vscode
@@ -7,8 +11,6 @@ dist
 /bitrix/
 
 /upload/
-/upload
-.htaccess
 /*.log
 /*.sql
 /*.txt
