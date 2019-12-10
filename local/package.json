@@ -11,7 +11,11 @@
     "@babel/polyfill": "^7.6.0",
     "@babel/preset-env": "^7.6.2",
     "autoprefixer": "^9.6.1",
-    "gulp-yarn": "^2.0.0",
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1",
     "webpack": "^4.41.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
