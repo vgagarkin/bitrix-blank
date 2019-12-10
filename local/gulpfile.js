@@ -1,11 +1,12 @@
 // Подключаем Gulp
-var gulp = require('gulp');
+let gulp = require('gulp');
 less = require('gulp-less');
+rename = require('gulp-rename');
 path = require('path');
 //autoprefixer= require('gulp-autoprefixer');
 
 gulp.task('less', function () {
-    return gulp.src('src/less/template_styles.less')
+    return gulp.src('src/less/main.less')
         .pipe(less({
             paths: [ path.join(__dirname, 'less', 'includes') ]
         }))
@@ -13,6 +14,7 @@ gulp.task('less', function () {
             browsers: ['last 2 versions'],
             cascade: false
         }))*/
+        .pipe(rename('build.css'))
         .pipe(gulp.dest('build/css'));
 });
 gulp.task("watch", function() {
